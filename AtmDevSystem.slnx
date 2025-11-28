@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="AtmCore/AtmCore.vcxproj" />
+  <Project Path="AtmFrontEndWpf/AtmFrontEndWpf.csproj">
+    <Platform Solution="Debug|x86" Project="x86" />
+  </Project>
+</Solution>
